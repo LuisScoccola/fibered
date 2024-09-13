@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools"]  
-build-backend = "setuptools.build_meta" 
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "fibered"
@@ -22,7 +22,7 @@ dependencies = [
 	"python-flint",
 	"matplotlib", 
 	"plotly", 
-	"procrustes"
+	"qc-procrustes"
 ]
 
 [tool.setuptools]
