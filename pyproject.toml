@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fibered"
+version = "0.0.1"
+description = "Vector bundle learning algorithm for dimensionality reduction."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Luis Scoccola", email = "luis.scoccola@maths.ox.ac.uk" }
+]
+
+dependencies = [
+  "numpy >= 1.18.5, < 2.0", 
+	"scipy < 1.9.0", 
+	"scikit-learn", 
+	"persim", 
+	"ripser", 
+	"python-flint",
+	"matplotlib", 
+	"plotly", 
+	"qc-procrustes"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
