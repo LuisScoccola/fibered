@@ -1,7 +1,7 @@
 from ripser import ripser
 from scipy import sparse
 import numpy as np
-from src.linearsystemsmodp import *
+from .linearsystemsmodp import *
 
 
 def sparse_weighted_graph_persistence(sparse_matrix, maxdim, suplevelset, do_cocycles=False):
